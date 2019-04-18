@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "high" : "High: 51",
+      "location" : "Anchorage",
+      "low" : "Low: 38",
+      "temperature" : "38"
+    },
+    {
+      "high" : "High: 51",
+      "location" : "Anchorage",
+      "low" : "Low: 38",
+      "temperature" : "38"
+    },
+    {
+      "high" : "High: 81",
+      "location" : "Pensacola",
+      "low" : "Low: 66",
+      "temperature" : "69"
+    },
+    {
+      "high" : "High: 81",
+      "location" : "Pensacola",
+      "low" : "Low: 66",
+      "temperature" : "69"
+    },
+    {
+      "high" : "High: 77",
+      "location" : "Powell Butte",
+      "low" : "Low: 49",
+      "temperature" : "40"
+    },
+    {
+      "high" : "High: 77",
+      "location" : "Powell Butte",
+      "low" : "Low: 49",
+      "temperature" : "40"
+    },
+    {
+      "high" : "High: 80",
+      "location" : "Salem",
+      "low" : "Low: 61",
+      "temperature" : "63"
+    },
+    {
+      "high" : "High: 80",
+      "location" : "Salem",
+      "low" : "Low: 61",
+      "temperature" : "63"
+    },
+    {
+      "high" : "High: 29",
+      "location" : "Prudhoe Bay",
+      "low" : "Low: 21",
+      "temperature" : "9"
+    },
+    {
+      "high" : "High: 29",
+      "location" : "Prudhoe Bay",
+      "low" : "Low: 21",
+      "temperature" : "9"
+    },
+    {
+      "high" : "High: 84",
+      "location" : "Spicewood",
+      "low" : "Low: 68",
+      "temperature" : "57"
+    },
+    {
+      "high" : "High: 84",
+      "location" : "Spicewood",
+      "low" : "Low: 68",
+      "temperature" : "57"
+    },
+    {
+      "high" : "High: 72",
+      "location" : "Kettle River",
+      "low" : "Low: 43",
+      "temperature" : "37"
+    },
+    {
+      "high" : "High: 72",
+      "location" : "Kettle River",
+      "low" : "Low: 43",
+      "temperature" : "37"
+    },
+    {
+      "high" : "76",
+      "location" : "McCloud",
+      "low" : "47",
+      "temperature" : "41"
+    },
+    {
+      "high" : "76",
+      "location" : "McCloud",
+      "low" : "47",
+      "temperature" : "41"
+    }
+  ]
+}

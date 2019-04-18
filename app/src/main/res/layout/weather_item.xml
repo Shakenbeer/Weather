@@ -15,19 +15,19 @@
         android:paddingEnd="8dp"
         android:paddingBottom="8dp"
         app:weatherBackground="@{vm.bgColor}"
-        tools:background="@color/bg_snowy">
+        tools:background="@sample/background">
 
         <TextView
             android:id="@+id/currentTemp"
-            android:layout_width="wrap_content"
-            android:layout_height="84dp"
+            android:layout_height="83dp"
             android:layout_marginStart="8dp"
+            android:layout_width="wrap_content"
             android:text="@{vm.currentTemp.toString()}"
             android:textSize="64sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="86" />
+            tools:text="@sample/forecast.json/data/temperature" />
 
         <TextView
             android:id="@+id/locationName"
@@ -42,7 +42,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/currentTemp"
             app:layout_constraintTop_toBottomOf="@id/currentTemp"
-            tools:text="Bellflower" />
+            tools:text="@sample/forecast.json/data/location" />
 
         <TextView
             android:id="@+id/scaleType"
@@ -70,7 +70,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.62"
             app:layout_constraintVertical_chainStyle="packed"
-            tools:text="High: 96" />
+            tools:text="@sample/forecast.json/data/high" />
 
         <TextView
             android:id="@+id/todayLowTemp"
@@ -84,7 +84,7 @@
             app:layout_constraintEnd_toStartOf="@+id/weather_icon"
             app:layout_constraintStart_toEndOf="@id/scaleType"
             app:layout_constraintTop_toBottomOf="@+id/todayHighTemp"
-            tools:text="Low: 22" />
+            tools:text="@sample/forecast.json/data/low" />
 
         <ImageView
             android:id="@+id/weather_icon"
@@ -99,7 +99,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:weatherIcon='@{vm.weatherIcon}'
-            tools:src="@mipmap/ic_snowy" />
+            tools:src="@sample/icon" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
